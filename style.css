@@ -1,0 +1,114 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.div1 img {
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.div2 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.div2 {
+  display: none;
+}
+
+.div3 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.div4 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.audio {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.div5 img {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.div5 {
+  height: 100vh;
+}
+
+.div3,
+.div4,
+.div5 {
+  display: none;
+}
+
+#kiss,
+#no {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  padding: 14px 30px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+#kiss {
+  background-color: rgb(19, 197, 19);
+  color: white;
+  
+}
+
+#no {
+  background-color: rgb(197, 19, 19);
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.div1 {
+  display: none;
+}
