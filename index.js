@@ -8,12 +8,12 @@ const h2 = document.querySelector("h2");
 const buttons = document.querySelector(".buttons");
 
 const noImages = [
-  "/memes/girl.jpg",
-  "/memes/kalbo.jpg",
-  "/memes/cat1.jpg",
-  "/memes/cat2.jpg",
-  "/memes/cat3.jpg",
-  "/memes/disappearing.gif",
+  "memes/girl.jpg",
+  "memes/kalbo.jpg",
+  "memes/cat1.jpg",
+  "memes/cat2.jpg",
+  "memes/cat3.jpg",
+  "memes/disappearing.gif",
 ];
 
 h1.addEventListener("click", () => {
@@ -61,7 +61,7 @@ no.addEventListener("click", () => {
 
 kiss.addEventListener("click", () => {
   const image = div1.querySelector("img");
-  image.src = "/memes/smiley.png";
+  image.src = "memes/smiley.png";
   div1.style.display = "none";
   div2.style.display = "block";
 });
@@ -73,10 +73,10 @@ document.querySelector(".div2 img").addEventListener("click", () => {
   const img = document.querySelector(".div3 img");
 
   setTimeout(() => {
-    img.src = "/memes/thinking.gif";
+    img.src = "memes/thinking.gif";
   }, 3000);
   setTimeout(() => {
-    img.src = "/memes/arrow-heart.gif";
+    img.src = "memes/arrow-heart.gif";
   }, 7000);
   setTimeout(() => {
     div3.style.display = "none";
@@ -94,14 +94,14 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 13) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>Crush moko?</p>
     `;
       continue;
     }
     if (i === 14) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>Awkward momints 🤣</p>
     `;
       continue;
@@ -109,7 +109,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 16) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>Yiee ing kilig</p>
     `;
       continue;
@@ -117,7 +117,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 19) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>Yiee happy na sya 😁</p>
     `;
       continue;
@@ -125,7 +125,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 23) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>Book_bind.jpeg 🤣</p>
     `;
       continue;
@@ -133,7 +133,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 28) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>First Date 💜</p>
     `;
       continue;
@@ -141,7 +141,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 46) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>💜💜💜</p>
     `;
       continue;
@@ -149,7 +149,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 55) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>😎😎</p>
     `;
       continue;
@@ -157,7 +157,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 66) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>Binni Gemma, nag bad finger 🤣</p>
     `;
       continue;
@@ -165,7 +165,7 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 70) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>CUTE MO</p>
     `;
       continue;
@@ -173,14 +173,14 @@ document.querySelector(".audio").style.display = "block";
 
     if (i === 74) {
       htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p>Best night of my life, may pa back hug 🤗🥰</p>
     `;
       continue;
     }
 
     htmlContent += `
-        <img src="/image/img${i}.jpg" alt="">
+        <img src="image/img${i}.jpg" alt="">
         <p></p>
     `;
   }
