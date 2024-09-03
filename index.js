@@ -88,6 +88,7 @@ document.querySelector(".div4 img").addEventListener("click", () => {
 div4.style.display = "none";
 div5.style.display = "block";
 document.querySelector(".audio").style.display = "block";
+document.querySelector("#music").play();
 
   let htmlContent = "";
   for (let i = 1; i <= 74; i++) {
